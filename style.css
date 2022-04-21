@@ -1,83 +1,93 @@
-header{
-    background-color: rgb(60, 60, 255);
-    width:100%;
-    text-align: center;
-    height: 80px;
-    color: white;
-    padding: 25px;
+.container{
+    margin-left: 80px;
+    }
+    #header{
+        background-color: rgb(0, 51, 145);
+        height: 80px;
+        width: 90%;
+        margin: 20px;
+        text-align: center;
+        color: white;
+        padding: 30px;
+        font-style: bold;
+        font-size: large;
+        
+        
+    }
     
+    *{
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+        
 
-}
-body{
-    margin:50px;
-    
-}
-.main{
-    background-color: rgb(16, 16, 39);
-    margin-top:20px;
-    height:400px;
-    display:flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding:20px;
-    width: 100%;
-    justify-content:space-evenly;
-    
-    
-}
-aside{
-    background-color: blue;
-    width:35%;
-    text-align: center;
-    color: white;
-    margin: 10px;
-    padding: 120px;
-    
-    
     
     }
-#section{
-    background-color: rgb(10, 10, 241);
-    text-align:center;
-    color: white;
-    width: 60%;
-    margin: 10px;
+    .main{
+        background-color: rgb(16, 16, 39);
+        margin:20px;
+        height:400px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding:20px;
+        width: 90%;
+        justify-content:space-around;
+        color: white;
     
+    }
+    #aside{
+        background-color: blue;
+        width:33%;
+        text-align: center;
+        color: white;
+        margin: 27px 27px 27px 0px;
+        padding: 120px;
+        height: 300px;
+        
+    
+    }
+    #section{
+        background-color: rgb(10, 10, 241);
+        text-align:center;
+        color: white;
+        width: 56%;
+        margin: 28px;
+        height: 300px;
+        
+    
+        
+    }
+    article{
+        background-color: rgb(228, 46, 46);
+        text-align: center;
+        color: white;
+        width: 60%;
+        height: 70%;
+        justify-content: center;
+        
+        padding: 80px;
+        
+         margin-left: 140px;
+        margin-top:40px; 
+         
+    }
+    
+    #main-head{
+        position: relative;
+        left: 500px;
+        top:0px;
 
-}
-article{
-    background-color: rgb(228, 46, 46);
-    text-align: center;
-    color: white;
-    width: 60%;
-    height: 70%;
-    justify-content: center;
-    
-    padding: 80px;
-    
-     margin-left: 140px;
-    margin-top:40px; 
-     
-}
-footer{
-    background-color: rgb(60, 60, 255);
-    width:100%;
-    text-align: center;
-    height: 80px;
-    color: white;
-    margin-top:20px;
-    padding:25px;
-    
+    }
+        #footer{
 
-
-
-}
-#main1{
-    text-align:center;
-    color: white;
+        background-color: rgb(0, 51, 145);
+        height: 80px;
+        width: 90%;
+        margin: 20px;
+        text-align: center;
+        color: white;
+        padding: 30px;
+        font-size: large;
+        font-style: bold;
     
-}
-*{
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
+    }
